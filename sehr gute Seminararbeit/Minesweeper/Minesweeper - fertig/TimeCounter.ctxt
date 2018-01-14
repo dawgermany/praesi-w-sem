@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TimeCounter
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TimeCounter\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=TimeCounter()
+comment3.params=
+comment3.target=void\ lvlez()
+comment4.params=
+comment4.target=void\ z\u00E4hlen()
+comment5.params=
+comment5.target=int\ getTime()
+comment6.params=
+comment6.target=void\ stop()
+numComments=7

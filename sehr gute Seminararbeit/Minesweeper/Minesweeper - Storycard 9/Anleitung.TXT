@@ -1,0 +1,24 @@
+
+PROJECT TITLE: MINESWEEPER
+AUTHORS: Lixian Lao
+USER INSTRUCTIONS:
+
+Um dieses Spiel zu gewinnen muss man alle Knöpfe drücken hinter denen sich keine Mine verbirgt.(Linksklick)
+Die Zahlen zeigen an wie viele Minen es um dieses Feld gibt.(Max Anzahl um ein Feld 8).
+Wenn sie sicher sind das sich hinter den Knopf eine Mine verbirgt, versehen sie das Feld mit einer Flagge(Rechtsklick)
+Man kann auch Fragezeichen setzen wenn man sich nicht sicher ist, ob sich hinter den Knopf ein Mine verbirgt.(Rechtsklick auf eine Flagge)
+Wenn man auf ein Knopf drückt hinter den sich eine Mine verbirgt verliert man.
+
+Schwierigkeitsstufen:
+
+Anfänger : 81 Felder (8x8) mit 10 Minen
+Fortgeschrittene : 256 Felder (16x16) mit 40 Minen
+Profis : 480 Felder (30x16) mit 99 Minen
+
+
+Die 3 Counter:
+Links: zeigt dir an wie viele Flaggen du gesetztest hast
+Mitte: zeigt dir die Anzahl der Minen an
+Rechts: zeigt dir die Zeit in Sekunden an
+
+Restartknopf: Fängt das Spiel neu an

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ Write\ a\ description\ of\ class\ Button\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=boolean\ Button()
+comment2.text=public\ int\ Takt(){\n\ \ \ \ \ \ \ \ long\ Time\ \ \=\ System.currentTimeMillis();\n\ \ \ \ \ \ \ \ while(\!(System.currentTimeMillis()\ >\=\ Time+Timestepms)){\n\ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.delay(1);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ if(NotePlaying\=\=16){\n\ \ \ \ \ \ \ \ \ \ \ \ NotePlaying\=1;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ else{\n\ \ \ \ \ \ \ \ \ \ \ \ NotePlaying++;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ NotePlaying;\n\n}
+numComments=3

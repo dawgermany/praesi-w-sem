@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>130</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>::MyWorld
+--
+~x1: int
+~xgap: int
+~x2: int
+~x3: int
+~x4: int
+~x5: int
+~x6: int
+~x7: int
+~x8: int
+~x9: int
+~x10: int
+~x11: int
+~x12: int
+~x13: int
+~x14: int
+~x15: int
+~x16: int
+~y1: int
+~ygap: int
+~y2: int
+~y3: int
+~y4: int
+~y5: int
+--
++MyWorld(): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>0</y>
+      <w>180</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>::MyWorld
+--
+~x1 = 190: int
+~xgap = 60: int
+~x2 = x1 + xgap: int
+~x3 = x2 + xgap: int
+~x4 = x3 + xgap: int
+~x5 = x4 + xgap: int
+~x6 = x5 + xgap: int
+~x7 = x6 + xgap: int
+~x8 = x7 + xgap: int
+~x9 = x8 + xgap: int
+~x10 = x9 + xgap: int
+~x11 = x10 + xgap: int
+~x12 = x11 + xgap: int
+~x13 = x12 + xgap: int
+~x14 = x13 + xgap: int
+~x15 = x14 + xgap: int
+~x16 = x15 + xgap: int
+~y1 = 200: int
+~ygap = 75: int
+~y2 = y1 + ygap: int
+~y3 = y2 + ygap: int
+~y4 = y3 + ygap: int
+~y5 = y4 + ygap: int
+--
++MyWorld(): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>0</y>
+      <w>150</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>::Taktgeber
+--
++NotePlaying: int
+~isPlaying: boolean
+~Time: long
++bpm: int
++Timestepms: int
+--
++Taktgeber(): ctor
++act(): void
+~Taktgeber(): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>0</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>::Taktgeber
+--
++NotePlaying = 1: int
+~isPlaying = true: boolean
+~Time = System.currentTimeMillis(): long
++bpm = 120: int
++Timestepms = 60000 / (bpm * 2): int
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>0</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>::Button
+--
+~isClicked: boolean
+--
++Button(): ctor
++act(): void
++Button(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>0</y>
+      <w>170</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>::PlayButton
+--
+~isClicked: boolean
+--
++PlayButton(): ctor
++act(): void
++PlayButton(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Bpmbuttons
+--
+--
++Bpmbuttons(): ctor
++act(): void
++bpmbutton(int): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>0</y>
+      <w>250</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Bpmindi
+--
+~img1: greenfoot.GreenfootImage
+--
++Bpmindi(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1560</x>
+      <y>0</y>
+      <w>200</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Button
+--
+~isClicked = false: boolean
+--
++act(): void
++Button(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1770</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap1
+--
+~playOnce: boolean
+--
++Clap1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1930</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap10
+--
+~playOnce: boolean
+--
++Clap10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2090</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap11
+--
+~playOnce: boolean
+--
++Clap11(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2250</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap12
+--
+~playOnce: boolean
+--
++Clap12(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2410</x>
+      <y>0</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap13
+--
+~playOnce: boolean
+--
++Clap13(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap14
+--
+~playOnce: boolean
+--
++Clap14(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap15
+--
+~playOnce: boolean
+--
++Clap15(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap16
+--
+~playOnce: boolean
+--
++Clap16(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap2
+--
+~playOnce: boolean
+--
++Clap2(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap3
+--
+~playOnce: boolean
+--
++Clap3(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap4
+--
+~playOnce: boolean
+--
++Clap4(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap5
+--
+~playOnce: boolean
+--
++Clap5(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap6
+--
+~playOnce: boolean
+--
++Clap6(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap7
+--
+~playOnce: boolean
+--
++Clap7(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap8
+--
+~playOnce: boolean
+--
++Clap8(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1600</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Clap9
+--
+~playOnce: boolean
+--
++Clap9(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1760</x>
+      <y>470</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Claps
+--
+--
++Claps(): ctor
++act(): void
++snare(boolean): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1930</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat1
+--
+~playOnce: boolean
+--
++Hat1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2090</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat10
+--
+~playOnce: boolean
+--
++Hat10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2250</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat11
+--
+~playOnce: boolean
+--
++Hat11(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2410</x>
+      <y>470</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat12
+--
+~playOnce: boolean
+--
++Hat12(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat13
+--
+~playOnce: boolean
+--
++Hat13(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat14
+--
+~playOnce: boolean
+--
++Hat14(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat15
+--
+~playOnce: boolean
+--
++Hat15(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat16
+--
+~playOnce: boolean
+--
++Hat16(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat2
+--
+~playOnce: boolean
+--
++Hat2(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat3
+--
+~playOnce: boolean
+--
++Hat3(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat4
+--
+~playOnce: boolean
+--
++Hat4(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat5
+--
+~playOnce: boolean
+--
++Hat5(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat6
+--
+~playOnce: boolean
+--
++Hat6(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat7
+--
+~playOnce: boolean
+--
++Hat7(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1600</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat8
+--
+~playOnce: boolean
+--
++Hat8(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1760</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hat9
+--
+~playOnce: boolean
+--
++Hat9(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>590</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Hats
+--
+--
++Hats(): ctor
++act(): void
++snare(boolean): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2090</x>
+      <y>590</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Indikator
+--
+--
++Indikator(): ctor
++act(): void
++Indi(int): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2230</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick1
+--
+~playOnce: boolean
+--
++Kick1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2390</x>
+      <y>590</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick10
+--
+~playOnce: boolean
+--
++Kick10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick11
+--
+~playOnce: boolean
+--
++Kick11(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick12
+--
+~playOnce: boolean
+--
++Kick12(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick13
+--
+~playOnce: boolean
+--
++Kick13(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick14
+--
+~playOnce: boolean
+--
++Kick14(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick15
+--
+~playOnce: boolean
+--
++Kick15(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick16
+--
+~playOnce: boolean
+--
++Kick16(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick2
+--
+~playOnce: boolean
+--
++Kick2(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick3
+--
+~playOnce: boolean
+--
++Kick3(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick4
+--
+~playOnce: boolean
+--
++Kick4(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick5
+--
+~playOnce: boolean
+--
++Kick5(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1600</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick6
+--
+~playOnce: boolean
+--
++Kick6(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1760</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick7
+--
+~playOnce: boolean
+--
++Kick7(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick8
+--
+~playOnce: boolean
+--
++Kick8(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>710</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kick9
+--
+~playOnce: boolean
+--
++Kick9(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2240</x>
+      <y>710</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Kicks
+--
+--
++Kicks(): ctor
++act(): void
++snare(boolean): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2410</x>
+      <y>710</y>
+      <w>200</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::PlayButton
+--
+~isClicked = false: boolean
+--
++act(): void
++PlayButton(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::snare1
+--
+~playOnce: boolean
+--
++snare1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare10
+--
+~playOnce: boolean
+--
++Snare10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare11
+--
+~playOnce: boolean
+--
++Snare11(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare12
+--
+~playOnce: boolean
+--
++Snare12(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare13
+--
+~playOnce: boolean
+--
++Snare13(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare14
+--
+~playOnce: boolean
+--
++Snare14(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare15
+--
+~playOnce: boolean
+--
++Snare15(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare16
+--
+~playOnce: boolean
+--
++Snare16(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare2
+--
+~playOnce: boolean
+--
++Snare2(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare3
+--
+~playOnce: boolean
+--
++Snare3(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1600</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare4
+--
+~playOnce: boolean
+--
++Snare4(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1760</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare5
+--
+~playOnce: boolean
+--
++Snare5(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare6
+--
+~playOnce: boolean
+--
++Snare6(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare7
+--
+~playOnce: boolean
+--
++Snare7(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2240</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare8
+--
+~playOnce: boolean
+--
++Snare8(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2400</x>
+      <y>830</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snare9
+--
+~playOnce: boolean
+--
++Snare9(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>950</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>::Snares
+--
+--
++Snares(): ctor
++act(): void
++snare(boolean): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>950</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Bpmbuttons
+--
+--
++act(): void
++bpmbutton(int delta): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>950</y>
+      <w>490</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Bpmindi
+--
+~img1 = new GreenfootImage("" + 20, 40, null, null): GreenfootImage
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap1
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap10
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1310</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap11
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1520</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap12
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1730</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap13
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1940</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap14
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2150</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap15
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2360</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap16
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2570</x>
+      <y>950</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap2
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap3
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap4
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap5
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap6
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap7
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap8
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Clap9
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1070</y>
+      <w>240</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Claps
+--
+--
++act(): void
++snare(boolean snarebool): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1720</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat1
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1930</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat10
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2140</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat11
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2350</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat12
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2560</x>
+      <y>1070</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat13
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat14
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat15
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat16
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat2
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat3
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat4
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat5
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat6
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1680</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat7
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1890</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat8
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>1170</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hat9
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2310</x>
+      <y>1170</y>
+      <w>240</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Hats
+--
+--
++act(): void
++snare(boolean snarebool): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2560</x>
+      <y>1170</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi1
+--
+--
++Indi1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi10
+--
+--
++Indi10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi11
+--
+--
++Indi11(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi12
+--
+--
++Indi12(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi13
+--
+--
++Indi13(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi14
+--
+--
++Indi14(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi15
+--
+--
++Indi15(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>1270</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi16
+--
+--
++Indi16(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi2
+--
+--
++Indi2(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi3
+--
+--
++Indi3(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi4
+--
+--
++Indi4(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi5
+--
+--
++Indi5(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1390</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi6
+--
+--
++Indi6(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1510</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi7
+--
+--
++Indi7(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1630</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi8
+--
+--
++Indi8(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1750</x>
+      <y>1270</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indi9
+--
+--
++Indi9(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1870</x>
+      <y>1270</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Indikator
+--
+--
++act(): void
++Indi(int x): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2010</x>
+      <y>1270</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick1
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2220</x>
+      <y>1270</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick10
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2430</x>
+      <y>1270</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick11
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick12
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick13
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick14
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick15
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick16
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick2
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick3
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick4
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1680</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick5
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1890</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick6
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2100</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick7
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2310</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick8
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2520</x>
+      <y>1370</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kick9
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1470</y>
+      <w>240</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Kicks
+--
+--
++act(): void
++snare(boolean snarebool): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>1470</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Minus1
+--
+--
++Minus1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>1470</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Minus10
+--
+--
++Minus10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>1470</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Plus1
+--
+--
++Plus1(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>1470</y>
+      <w>120</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Plus10
+--
+--
++Plus10(): ctor
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::snare1
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>980</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare10
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare11
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1400</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare12
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1610</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare13
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1820</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare14
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2030</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare15
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2240</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare16
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2450</x>
+      <y>1470</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare2
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare3
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare4
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare5
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare6
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare7
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare8
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1570</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snare9
+--
+~playOnce = true: boolean
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1570</y>
+      <w>240</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>::Snares
+--
+--
++act(): void
++snare(boolean snarebool): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1720</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi1
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1820</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi10
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi11
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2020</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi12
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2120</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi13
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2220</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi14
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2320</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi15
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2420</x>
+      <y>1570</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi16
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi2
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi3
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi4
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi5
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi6
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi7
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi8
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Indi9
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Minus1
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>1670</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Minus10
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Plus1
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1090</x>
+      <y>1670</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>::Plus10
+--
+--
++act(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
